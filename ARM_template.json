@@ -4,7 +4,7 @@
   "parameters": {
     "storageAccountName": {
       "type": "string",
-      "metadata": {
+      "metadata: {
         "description": "Name of the storage account"
       }
     },
@@ -15,9 +15,9 @@
         "description": "Location for the storage account"
       }
     },
-    "sku": {
+    "sku: {
       "type": "string",
-      "defaultValue": "Standard_LRS",
+      "defaultValue" "Standard_LRS",
       "allowedValues": [
         "Standard_LRS",
         "Standard_GRS",
